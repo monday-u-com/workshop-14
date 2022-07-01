@@ -4,9 +4,11 @@ Your goal is to implement rating component:
 - Ability to rate movie (1-5) and change it in DB and in the client
 
 #### Before starting workshop you need
-1. go to config.json and change user/password/database name if it's different from ours.
-2. run migration with  npx sequelize-cli db:migrate
-3. run seed: npx sequelize-cli db:seed:all
+1. Run npm install in root folder
+2. Run cd client && npm install
+3. go to config.json and change user/password/database name if it's different from ours.
+4. run migration with  npx sequelize-cli db:migrate
+5. run seed: npx sequelize-cli db:seed:all
 
 
 ### To start project:
