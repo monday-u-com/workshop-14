@@ -1,7 +1,11 @@
 # Workshop #14
 Your goal is to implement rating component:
-- Showing current rating
+- Showing current rating (from movie.rating)
 - Ability to rate movie (1-5) and change it in DB and in the client
+  - Create endpoint that update rating in the movie using title and new rating
+  - Add 5 empty stars
+  - User clicks on 1 to 5 star, and it will trigger request from webapp to server to update
+  - Update rating according to what was chosen
 
 #### Before starting workshop you need
 1. Run `npm install` in root folder
